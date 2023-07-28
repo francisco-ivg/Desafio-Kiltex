@@ -7,11 +7,11 @@ import { HttpClient } from '@angular/common/http';
 })
 export class PokemonService {
 
-  baseUrl: string = environment.baseUrl;
+  baseUrl: string = environment.baseUrl; //registro de url desde clase enviroment
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) { } //llamada http request
 
-  //Obtiene pokemon
+  //Metodo que obtiene pokemon
   getPokemons(index){
     return this.http.get<any>(`${this.baseUrl}/pokemon/${index}`);
   }

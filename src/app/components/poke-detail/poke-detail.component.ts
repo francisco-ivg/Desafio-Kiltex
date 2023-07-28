@@ -2,14 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { PokemonService } from 'src/app/services/pokemon.service';
 import { ActivatedRoute } from '@angular/router';
 
-@Component({
+@Component({ //decorador con elementos
   selector: 'app-poke-detail',
   templateUrl: './poke-detail.component.html',
   styleUrls: ['./poke-detail.component.scss']
 })
-export class PokeDetailComponent implements OnInit {
+export class PokeDetailComponent implements OnInit { //definicion de clase
 
-  pokemon: any = '';
+  pokemon: any = ''; //variables
   pokemonImg = '';
   pokemonType = [];
 

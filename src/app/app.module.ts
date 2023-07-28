@@ -15,8 +15,8 @@ import { PokemonComponent } from './pokemon/pokemon.component';
 
 
 
-@NgModule({
-  declarations: [
+@NgModule({ //decorador para agregar caracteristicas o config
+  declarations: [ //registro de componentes 
     AppComponent,
     HeaderComponent,
     PokeTableComponent,
@@ -24,7 +24,7 @@ import { PokemonComponent } from './pokemon/pokemon.component';
     FooterComponent,
     PokemonComponent
   ],
-  imports: [
+  imports: [ //registro de modulos Angular
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
