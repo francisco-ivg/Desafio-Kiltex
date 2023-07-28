@@ -1,4 +1,4 @@
-# PokeApp with Angular Material
+# Servicio PokeApp Angular
 
 Esta aplicacion funciona apartir del consumo de una APi:
 https://pokeapi.co/docs/v2#pokemon-section
