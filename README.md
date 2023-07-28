@@ -8,7 +8,7 @@ Para evitar errores recomiendo descargar el proyecto en formato zip, descomprimi
 Para ejecutar la aplicacion correctamente hay que aplicar los siguientes comandos una vez descargado el proyecto:
 
 # Running local
-*Para bajar la carpeta de angular modules:
+*Para descargar la carpeta de angular modules:
  - npm install
 
 *Para levantar el proyecto en angular.
